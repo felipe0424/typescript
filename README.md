@@ -2,7 +2,7 @@
 
 ## Passos para Configurar um Projeto TypeScript
 
-- [1. Iniciar um novo projeto](#1-iniciar-projeto)
+- 1. [Iniciar um novo projeto](#1-iniciar-projeto)
 - [2. Instalar TypeScript](#2-instalar-typescript)
 - [3. Instalar TSX](#3-instalar-o-tsx-globalmente)
 - [4. Inicializar o TypeScript](#4-inicializar-o-projeto-typescript)
