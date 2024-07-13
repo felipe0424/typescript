@@ -1,0 +1,36 @@
+/* Arquivo: styles.css */
+
+body {
+    background-color: #282828; /* Cor de fundo */
+    color: #ffffff; /* Cor da fonte */
+    font-family: SF Pro, Barlow; /* Define uma fonte padrão */
+    display: flex; /* Adiciona flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Altura da visualização será 100% da altura da janela do navegador */
+    text-align: center; /* Centraliza o texto */
+    flex-direction: column; /* Alinha os elementos verticalmente */
+}
+
+/* Estilos específicos para o h1 */
+h1 {
+    font-size: 2.5em; /* Tamanho da fonte */
+    font-weight: bold; /* Peso da fonte */
+    color: #ffffff; /* Cor da fonte */
+    margin-bottom: 10px; /* Remove espaçamento inferior */
+}
+
+/* Estilos específicos para o h2 */
+h2 {
+    font-size: 2em; /* Tamanho da fonte */
+    font-weight: normal; /* Peso da fonte */
+    color: #ffffff; /* Cor da fonte */
+    margin: 0px; /* Remove espaçamento */
+    padding-bottom: 0; /* Remove espaçamento inferior */
+}
+
+/* Estilos específicos para o p */
+p {
+    margin: 0; /* Remove espaçamento */
+    padding-top: 5px; /* Adiciona um pequeno espaçamento superior */
+}
