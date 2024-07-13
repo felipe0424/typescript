@@ -1,36 +1,44 @@
-## Passos para Configurar um Projeto TypeScript
+# Passos para Configurar um Projeto TypeScript
 
-* Iniciar o Projeto com npm:
+- [Iniciar um novo projeto](#iniciar-projeto)
+- [Instalar TypeScript](#instalar-typescript)
+- [Instalar TSX](#instalar-o-tsx-globalmente)
+- [Inicializar o TypeScript](#inicializar-o-projeto-typescript)
+- [Compilar TS para JS](#compilar)
+- [Executar Arquivo TypeScript](#usando-tsx-para-executar-o-código-typescript)
+
+### Iniciar Projeto
 Este comando inicializa um novo projeto Node.js criando um package.json com as configurações padrão.
 ```
 npm init -y
 ```
 
-* Instalar TypeScript como Dependência de Desenvolvimento:
-Isto instala o TypeScript localmente no seu projeto e adiciona a dependência no package.json.
+### Instalar TypeScript:
+Instala o TypeScript localmente no seu projeto e adiciona a dependência no package.json.
 ```
 npm install typescript --save-dev
 ```
 
-* Instalar o tsx Globalmente:
-tsx é uma ferramenta para executar arquivos TypeScript diretamente, sem precisar compilá-los manualmente toda vez.
+### Instalar o TSX globalmente:
+TSX é uma ferramenta para executar arquivos TypeScript diretamente, sem precisar compilá-los manualmente toda vez.
 ```
 npm i -g tsx
 ```
 
-* Inicializar o Projeto TypeScript:
+### Inicializar o Projeto TypeScript:
+Este comando cria um arquivo tsconfig.json no seu projeto, que é utilizado para configurar as opções de compilação do TypeScript.
 ```
 tsc --init
 ```
-Este comando cria um arquivo tsconfig.json no seu projeto, que é utilizado para configurar as opções de compilação do TypeScript.
 
-* Compilar o Arquivo TypeScript:
-Este comando compila o arquivo index.ts para JavaScript.
+
+#### Compilar
+Este comando compila o arquivo index.ts para index.js
 ```
 tsc index.ts
 ```
 
-* Usando tsx para Executar o Código TypeScript.
+### Usando TSX para Executar o Código TypeScript.
 Depois de configurar o projeto, você pode usar o tsx para executar seus arquivos TypeScript diretamente sem precisar compilar manualmente a cada vez:
 ```
 tsx index.ts
