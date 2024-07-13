@@ -2,7 +2,7 @@
 
 ## Passos para Configurar um Projeto TypeScript
 
-- 1. [Iniciar um novo projeto](#1-iniciar-projeto)
+- [1. Iniciar um novo projeto](#1-iniciar-projeto)
 - [2. Instalar TypeScript](#2-instalar-typescript)
 - [3. Instalar TSX](#3-instalar-o-tsx-globalmente)
 - [4. Inicializar o TypeScript](#4-inicializar-o-projeto-typescript)
@@ -55,6 +55,18 @@ Depois de configurar o projeto, você pode usar o tsx para executar seus arquivo
 ```
 tsx index.ts
 ```
+## Contato
+Para saber mais sobre meus trabalhos, entre em contato comigo através do <a href="https://www.linkedin.com/in/jfeliperamos/">LinkedIn</a> ou visite meu <a href="https://felipe0424.github.io/PortfolioDev/HTML/index.html">GitHub.</a> 
 
-### :warning:  Aviso de Uso de Código
+---
+<div align=center>
+    <a href="https://www.linkedin.com/in/jfeliperamos/">
+        <img src="https://github.com/user-attachments/assets/0350e54a-100e-4273-aa51-81aa9fce3d79" alt="LinkedIn" width="25">
+    </a> 
+    <a href="https://felipe0424.github.io/PortfolioDev/HTML/index.html">
+        <img src="https://github.com/user-attachments/assets/3fda6271-fd40-4485-bb7c-60b927b9feae" alt="GitHub" width="25">
+    </a>
+</div>
+
+### :warning: Aviso de Uso de Código
 > Este código é disponibilizado exclusivamente para fins de estudo e aprendizado. A reprodução total ou parcial deste código, sem autorização prévia, é expressamente proibida. A utilização deste código em projetos comerciais, distribuição não autorizada ou qualquer outro uso que não seja educativo pode resultar em sanções legais. Ao utilizar este código, você concorda em respeitar os termos de uso e a propriedade intelectual do autor.
