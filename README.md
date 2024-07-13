@@ -1,6 +1,6 @@
 # **Typescript**
 
-# Passos para Configurar um Projeto TypeScript
+## Passos para Configurar um Projeto TypeScript
 
 - [1. Iniciar um novo projeto](#1-iniciar-projeto)
 - [2. Instalar TypeScript](#2-instalar-typescript)
@@ -34,7 +34,7 @@ tsc --init
 ```
 
 
-#### 5. Compilar
+### 5. Compilar
 Este comando compila o arquivo index.ts para index.js
 ```
 tsc index.ts
