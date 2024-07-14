@@ -1,7 +1,6 @@
 # **TypeScript**
 
 ## Passos para Configurar um Projeto TypeScript
-
 - [1. Iniciar um novo projeto](#1-iniciar-projeto)
 - [2. Instalar TypeScript](#2-instalar-typescript)
 - [3. Instalar TSX](#3-instalar-o-tsx-globalmente)
@@ -19,46 +18,38 @@
     <a href="https://felipe0424.github.io/PortfolioDev/HTML/index.html"><img src="https://github.com/user-attachments/assets/b03adba8-e155-4555-8737-2afaf449620d" alt="Node" width="50"></a>
 </div>
 
-___
 ### 1. Iniciar Projeto
 Este comando inicializa um novo projeto Node.js criando um package.json com as configurações padrão.
-```
+```rust
 npm init -y
 ```
-___
 ### 2. Instalar TypeScript:
 Instala o TypeScript localmente no seu projeto e adiciona a dependência no package.json.
-```
+```rust
 npm install typescript --save-dev
 ```
-___
 ### 3. Instalar o TSX globalmente:
 TSX é uma ferramenta para executar arquivos TypeScript diretamente, sem precisar compilá-los manualmente toda vez.
-```
+```rust
 npm i -g tsx
 ```
-___
 ### 4. Inicializar o Projeto TypeScript:
 Este comando cria um arquivo tsconfig.json no seu projeto, que é utilizado para configurar as opções de compilação do TypeScript.
-```
+```rust
 tsc --init
 ```
-___
 ### 5. Compilar
-Este comando compila o arquivo index.ts para index.js
-```
+```rust
 tsc index.ts
 ```
-___
 ### 6. Usando TSX para Executar o Código TypeScript.
 Depois de configurar o projeto, você pode usar o tsx para executar seus arquivos TypeScript diretamente sem precisar compilar manualmente a cada vez:
-```
+```rust
 tsx index.ts
 ```
-___
 ## Contato
 Para saber mais sobre meus trabalhos, entre em contato comigo através do <a href="https://www.linkedin.com/in/jfeliperamos/">LinkedIn</a> ou visite meu <a href="https://felipe0424.github.io/PortfolioDev/HTML/index.html">GitHub.</a> 
-___
+
 <div align=center>
     <a href="https://www.linkedin.com/in/jfeliperamos/">
         <img src="https://github.com/user-attachments/assets/0350e54a-100e-4273-aa51-81aa9fce3d79" alt="LinkedIn" width="25">
