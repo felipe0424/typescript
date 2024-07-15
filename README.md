@@ -2,7 +2,7 @@
 <a href="https://felipe0424.github.io/PortfolioDev/HTML/index.html"><img src="https://github.com/user-attachments/assets/99565e92-5ce7-4298-ac67-95801f113f9f" alt="ts" width="70"></a>
 
 # **TypeScript**
-## `Passos para Configurar um Projeto TypeScript`
+### `Passos para Configurar um Projeto TypeScript`
 </div>
 
 ## :bookmark_tabs:	Índice
